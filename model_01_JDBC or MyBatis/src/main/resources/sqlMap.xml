@@ -1,0 +1,13 @@
+<configuration>
+    <!--数据库配置信息-->
+    <dataSource>
+        <property name = "driverClass" value = "com.mysql.jdbc.Driver"></property>
+        <property name = "jdbcUrl" value = "jdbc:mysql:///jthxwg_volte"></property>
+        <property name = "userName" value = "root"></property>
+        <property name = "password" value = "Mysql456852@."></property>
+    </dataSource>
+
+    <mapper resource = "common_branch_province_sql.xml"></mapper>
+    <mapper resource = "common_branch_sql.xml"></mapper>
+
+</configuration>

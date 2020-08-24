@@ -18,7 +18,7 @@ import java.util.List;
  **/
 @Service
 @Slf4j
-public class Read {
+public class JDBCRead {
     Connection connection = null;
     PreparedStatement preparedStatement = null;
     ResultSet resultSet = null;
@@ -30,6 +30,7 @@ public class Read {
             Class.forName("com.mysql.jdbc.Driver");
 //            向驱动中写入mysql的地址
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jthxwg_volte?characterEncoding=utf-8&useSSL=false", "root", "Mysql456852@.");
+
             preparedStatement = connection.prepareStatement("SELECT * FROM `common_topology_configure_eor_wj` WHERE compute_room = 'CL'");
 //            preparedStatement.setString(1, "'CL'");
             resultSet = preparedStatement.executeQuery();

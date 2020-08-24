@@ -1,0 +1,12 @@
+<mapper nameSpace="common_branch_province">
+
+    <select id="selectList" resultType="com.lagou.mybatis.model.CommonBranchProvince"
+            paramterType = "com.lagou.mybatis.model.CommonBranchProvince">
+        SELECT * FROM `common_branch_province`
+    </select>
+
+    <select id="selectById" resultType="com.lagou.mybatis.model.CommonBranchProvince"
+            paramterType = "com.lagou.mybatis.model.CommonBranchProvince">
+        SELECT * FROM `common_branch_province` WHERE id = #{id}
+    </select>
+</mapper>
