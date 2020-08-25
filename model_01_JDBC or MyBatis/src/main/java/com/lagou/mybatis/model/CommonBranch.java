@@ -20,7 +20,7 @@ public class CommonBranch {
     private String branch;
     private String branch_en;
     private String create;
-    private String update ;
+    private String update;
     private String user;
     private String remark;
 }

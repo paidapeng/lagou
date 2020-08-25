@@ -27,7 +27,7 @@ public class JdbcController {
 
     @RequestMapping("/runjdbc")
     public List<String> runjdbc(HttpServletRequest request, HttpServletResponse response) {
-        List<String> list =  jdbcService.runJdbc();
+        List<String> list = jdbcService.runJdbc();
         return list;
     }
 

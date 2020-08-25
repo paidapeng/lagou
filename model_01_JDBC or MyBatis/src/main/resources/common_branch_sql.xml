@@ -1,11 +1,13 @@
-<mapper nameSpace = "common_branch">
+<mapper nameSpace="common_branch">
 
-<!--    sql唯一标识为 nameSpace.id-->
-    <select id="selectList" resultType = "com.lagou.mybatis.model.CommonBranch" paramterType = "com.lagou.mybatis.model.CommonBranch">
+    <!--    sql唯一标识为 nameSpace.id-->
+    <select id="selectList" resultType="com.lagou.mybatis.model.CommonBranch"
+            paramterType="com.lagou.mybatis.model.CommonBranch">
         SELECT * FROM `common_branch`
     </select>
 
-    <select id="selectById" resultType = "com.lagou.mybatis.model.CommonBranch" paramterType = "com.lagou.mybatis.model.CommonBranch">
+    <select id="selectById" resultType="com.lagou.mybatis.model.CommonBranch"
+            paramterType="com.lagou.mybatis.model.CommonBranch">
         SELECT * FROM `common_branch` WHERE id = #{id}
     </select>
 

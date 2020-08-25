@@ -20,9 +20,10 @@ import java.util.List;
 public class JdbcService {
     @Autowired
     Read read;
-    public List<String> runJdbc(){
+
+    public List<String> runJdbc() {
         List<String> list = read.getConnection();
-        return  list;
+        return list;
     }
 
 }
