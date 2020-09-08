@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: volte-home
+server:
+  port: 16009
+
