@@ -1,0 +1,14 @@
+<mapper nameSpace="conference_member.xml">
+
+    <!--    sql唯一标识为 nameSpace.id-->
+    <select id="selectList" resultType="com.lagou.i_persistence.model.ConferenceMember"
+            paramterType="com.lagou.i_persistence.model.ConferenceMember">
+        SELECT * FROM `conference_member`
+    </select>
+
+    <select id="selectById" resultType="com.lagou.mybatis.model.ConferenceMember"
+            paramterType="com.lagou.mybatis.model.ConferenceMember">
+        SELECT * FROM `conference_member` WHERE id = #{id}
+    </select>
+
+</mapper>
