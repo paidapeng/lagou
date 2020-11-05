@@ -30,12 +30,13 @@ public class JDBCRead {
         try {
 //            java反射注入mysql的驱动
             Class.forName("com.mysql.jdbc.Driver");
-//            向驱动中写入mysql的地址
+//            通过驱动管理类向驱动中写入mysql的地址
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jthxwg_volte?characterEncoding=utf-8&useSSL=false", "root", "Mysql456852@.");
-
+//            预处理Statement写入sql语句
             preparedStatement = connection.prepareStatement("SELECT * FROM `common_topology_configure_eor_wj` WHERE compute_room = 'CL'");
-//            preparedStatement.setString(1, "'CL'");
+//            preparedStatement.setString(1, "'CL'"); 可以用于问号传参
             resultSet = preparedStatement.executeQuery();
+//            封装对象或者方法
             while (resultSet.next()) {
                 String ip = resultSet.getString("ip");
                 runnerList.add(ip);
