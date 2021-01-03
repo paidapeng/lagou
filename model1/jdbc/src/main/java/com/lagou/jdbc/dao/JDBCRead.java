@@ -10,13 +10,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *   
- *  @Title: read
- *  @Package com.lagou.jdbc.dao
- *  @Description: 数据库读取
- *  @author Liush  
- *  @date 2020/7/22
- *  @version V1.0  
+ *
+ *  @Title: read
+ *  @Package com.lagou.jdbc.dao
+ *  @Description: 数据库读取
+ *  @author Liush
+ *  @date 2020/7/22
+ *  @version V1.0
  **/
 @Service
 @Slf4j

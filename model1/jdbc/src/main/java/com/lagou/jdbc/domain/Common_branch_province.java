@@ -5,13 +5,13 @@ import com.alibaba.excel.annotation.write.style.ColumnWidth;
 import com.alibaba.excel.annotation.write.style.OnceAbsoluteMerge;
 
 /**
- *   
- *  @Title: Common_branch_province
- *  @Package com.lagou.jdbc.domain
- *  @Description: common_branch_province 对应实体类
- *  @author Liush  
- *  @date 2020/9/17
- *  @version V1.0  
+ *
+ *  @Title: Common_branch_province
+ *  @Package com.lagou.jdbc.domain
+ *  @Description: common_branch_province 对应实体类
+ *  @author Liush
+ *  @date 2020/9/17
+ *  @version V1.0
  **/
 @ColumnWidth(25)
 @OnceAbsoluteMerge(firstRowIndex = 0, lastRowIndex = 0, firstColumnIndex = 1, lastColumnIndex = 3)

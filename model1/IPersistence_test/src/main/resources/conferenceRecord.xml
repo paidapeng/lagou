@@ -1,0 +1,9 @@
+<configuration nameSpace="conferenceRecord">
+<!--    sql的唯一标识：namespace.id组成：statementId-->
+    <select id="selectAllList" resultType="com.lagou.mode.ConferenceRecord">
+        selece * from conference_record
+    </select>
+    <select id="selectForIdOrChannelName" resultType="com.lagou.mode.ConferenceRecord" paramterType="com.lagou.mode.ConferenceRecord">
+        selece * from conference_record where conference_id = #{conference_id} and #{channel_name}
+    </select>
+</configuration>

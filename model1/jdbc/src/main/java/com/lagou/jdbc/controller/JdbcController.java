@@ -10,13 +10,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
 /**
- *   
- *  @Title: JdbcController
- *  @Package com.lagou.jdbc.controller
- *  @Description: 
- *  @author Liush  
- *  @date 2020/7/22
- *  @version V1.0  
+ *
+ *  @Title: JdbcController
+ *  @Package com.lagou.jdbc.controller
+ *  @Description:
+ *  @author Liush
+ *  @date 2020/7/22
+ *  @version V1.0
  **/
 @RestController
 public class JdbcController {

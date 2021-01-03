@@ -17,13 +17,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- *   
- *  @Title: JdbcService
- *  @Package com.lagou.jdbc.service
- *  @Description: 操作jdbc
- *  @author Liush  
- *  @date 2020/7/22
- *  @version V1.0  
+ *
+ *  @Title: JdbcService
+ *  @Package com.lagou.jdbc.service
+ *  @Description: 操作jdbc
+ *  @author Liush
+ *  @date 2020/7/22
+ *  @version V1.0
  **/
 @Service
 public class JdbcService {

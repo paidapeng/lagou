@@ -4,13 +4,13 @@ import lombok.Data;
 import org.springframework.context.annotation.Configuration;
 
 /**
- *   
- *  @Title: Common_branch
- *  @Package com.lagou.jdbc.domain
- *  @Description: 
- *  @author Liush  
- *  @date 2020/7/23
- *  @version V1.0  
+ *
+ *  @Title: Common_branch
+ *  @Package com.lagou.jdbc.domain
+ *  @Description:
+ *  @author Liush
+ *  @date 2020/7/23
+ *  @version V1.0
  **/
 @Data
 @Configuration
