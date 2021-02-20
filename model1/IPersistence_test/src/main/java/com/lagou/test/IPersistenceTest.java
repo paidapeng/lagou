@@ -1,5 +1,7 @@
 package com.lagou.test;
 
+import com.lagou.i_persistence.io.Resources;
+
 /**
  *
  *  @Title: IPersistenceTest
@@ -12,6 +14,6 @@ package com.lagou.test;
 public class IPersistenceTest {
 
     public void test(){
-//        Resources.getR
+        Resources.getResourceAsStream();
     }
 }
