@@ -14,6 +14,6 @@ import com.lagou.i_persistence.io.Resources;
 public class IPersistenceTest {
 
     public void test(){
-        Resources.getResourceAsStream();
+//        Resources.getResourceAsStream();
     }
 }
