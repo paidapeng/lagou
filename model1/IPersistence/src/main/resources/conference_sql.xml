@@ -1,12 +1,12 @@
 <mapper nameSpace="conference">
 
-    <select id="selectList" resultType="com.lagou.i_persistence.model.Conference"
-            paramterType="com.lagou.i_persistence.model.Conference">
+    <select id="selectList" resultType="com.lagou.model.Conference"
+            paramterType="com.lagou.model.Conference">
         SELECT * FROM `conference`
     </select>
 
-    <select id="selectById" resultType="com.lagou.i_persistence.model.Conference"
-            paramterType="com.lagou.i_persistence.model.Conference">
+    <select id="selectById" resultType="com.lagou.model.Conference"
+            paramterType="com.lagou.model.Conference">
         SELECT * FROM `conference` WHERE id = #{id}
     </select>
 </mapper>

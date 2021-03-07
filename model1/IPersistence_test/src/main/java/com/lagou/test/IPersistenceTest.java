@@ -1,5 +1,10 @@
 package com.lagou.test;
 
+
+import com.lagou.io.Resources;
+
+import java.io.InputStream;
+
 /**
  *
  *  @Title: IPersistenceTest
@@ -12,6 +17,6 @@ package com.lagou.test;
 public class IPersistenceTest {
 
     public void test(){
-//        Resources.getR
+        InputStream inputStream = Resources.getResourceAsStream("conferenceRecord.xml");
     }
 }

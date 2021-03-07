@@ -1,5 +1,6 @@
-package com.lagou.i_persistence.io;
+package com.lagou.io;
 
+import javax.annotation.Resource;
 import java.io.InputStream;
 
 /**
@@ -11,6 +12,7 @@ import java.io.InputStream;
  *  @date 2020/9/8
  *  @version V1.0
  **/
+@Resource
 public class Resources {
 
     public static InputStream getResourceAsStream(String path){

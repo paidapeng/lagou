@@ -1,4 +1,4 @@
-package com.lagou.i_persistence.model;
+package com.lagou.model;
 
 import lombok.Data;
 

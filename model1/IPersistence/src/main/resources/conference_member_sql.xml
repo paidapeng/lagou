@@ -1,8 +1,8 @@
 <mapper nameSpace="conference_member.xml">
 
     <!--    sql唯一标识为 nameSpace.id-->
-    <select id="selectList" resultType="com.lagou.i_persistence.model.ConferenceMember"
-            paramterType="com.lagou.i_persistence.model.ConferenceMember">
+    <select id="selectList" resultType="com.lagou.model.ConferenceMember"
+            paramterType="com.lagou.model.ConferenceMember">
         SELECT * FROM `conference_member`
     </select>
 
